@@ -1,0 +1,39 @@
+LA BIBLE QUI RÉVEILLE L’ÂME — PROJET ANDROID NATIF (DÉMARRAGE)
+
+Ce dossier contient le code source d’un premier squelette Android natif en Kotlin.
+Il n’est PAS un APK compilé et installé.
+
+CONTENU ACTUEL
+- Projet Android Gradle avec une Activity Kotlin sans dépendance AndroidX.
+- Première interface rose, blanc et or.
+- Rubriques d’accueil : Ma Bible, Bible audio, Thèmes bibliques, Prières et enseignements,
+  Cantiques spirituels et Mes réglages.
+- Mention explicite des fonctions encore non implémentées.
+
+À FAIRE ENSUITE
+1. Ouvrir le dossier dans Android Studio récent avec JDK 17 et Android SDK 35.
+2. Laisser Gradle télécharger le plugin Android (connexion Internet nécessaire pour la construction).
+3. Compiler et tester sur un appareil Android.
+4. Ajouter la navigation réelle, le lecteur biblique et les données hors ligne autorisées.
+5. Ajouter ensuite les rappels horaires, le mode silencieux nocturne et les services audio,
+   avec les permissions Android nécessaires.
+6. Étudier séparément le blocage de Facebook/TikTok : il nécessitera un service d’accessibilité
+   ou un mécanisme Android approprié, expliqué à l’utilisateur et activé volontairement.
+
+CONTENUS ET DROITS
+- La Bible Darby est exclue conformément à la demande.
+- Ne pas intégrer une traduction ou un enregistrement audio sans vérifier ses droits
+  et obtenir l’autorisation nécessaire.
+- Les traductions Louis Segond 1910, Segond 21, Français courant, Martin et Ostervald
+  restent à vérifier individuellement avant distribution.
+
+CHOIX DU PROJET
+- Nom : La Bible qui réveille l’âme
+- Couleurs : rose, blanc et doré
+- Langues souhaitées : français, mooré, anglais, dioula, arabe, espagnol
+- Fonctionnement hors ligne visé autant que possible
+
+LIMITATION DE CETTE VERSION
+L’interface affiche des rubriques de départ. Aucun contenu biblique/audio n’est encore embarqué.
+Les notifications en arrière-plan et le blocage d’autres applications ne sont pas actifs.
+Aucun APK n’a été compilé ni vérifié dans cet environnement.
